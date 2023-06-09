@@ -1,6 +1,5 @@
 import { cloneDeep } from 'lodash';
-import { getType } from '../dependencies';
-import { TArrayRecord, TArrayOfRecords } from '@/types/arrayOfRecords';
+import { getType, TArrayRecord, TArrayOfRecords } from '../dependencies';
 
 function normalizeArray(_array: TArrayOfRecords): TArrayOfRecords {
     const array = cloneDeep(_array) as Record<string, any>[];

@@ -6,8 +6,8 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import ThemeSettings from '@/types/themeSettings';
-import makeClasses from '@/helpers/makeClasses';
+
+import { makeClasses, ThemeSettings } from '../dependencies';
 
 
 // META

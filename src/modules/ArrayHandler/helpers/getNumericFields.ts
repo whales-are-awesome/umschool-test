@@ -1,4 +1,4 @@
-import { TArrayOfRecords } from '@/types/arrayOfRecords';
+import { TArrayOfRecords } from '../dependencies';
 
 function getNumericFields(arr: TArrayOfRecords) {
     const excluded: string[] = [];
